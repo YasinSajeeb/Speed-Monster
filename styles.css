@@ -143,7 +143,7 @@ button {
 
 #histories {
   display: flex;
-  /* flex-wrap: wrap; */
+  
   justify-content: space-around;
   gap: 20px;
 }
@@ -192,5 +192,9 @@ button {
   }
   .card {
     flex-direction: column;
+  }
+  #histories{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
